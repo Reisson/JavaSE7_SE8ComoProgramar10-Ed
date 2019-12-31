@@ -7,7 +7,7 @@
 public class Conta3_8
 {
 	private String nome; //Variável de intância.
-	private Double balanco; //Variável de intância.
+	private double balanco; //Variável de intância.
 	
 	//Contrutor de Conta3_8 que recebe os dois parâmetros.
 	public Conta3_8(String nome, double balanco)
@@ -40,7 +40,7 @@ public class Conta3_8
 	}
 	
 	// método que retorna o nome
-	public String gerNome()
+	public String getNome()
 	{
 		return nome; // retorna o valor do nome ao chamador
 	}
